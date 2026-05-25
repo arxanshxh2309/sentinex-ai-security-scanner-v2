@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Training outputs and large model artifacts
+runs/
+weights/
+*.pt
+*.pth
+*.onnx
+*.engine
+*.torchscript
+
+# Datasets
+datasets/raw/
+datasets/processed/
+datasets/open_images_weapons/
+datasets/coco128/
+
+# Local notebooks and OS/editor files
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
