@@ -134,3 +134,9 @@ Large generated artifacts are intentionally ignored:
 
 Upload model weights separately through a release, cloud bucket, or model registry
 instead of committing them directly.
+
+## License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
+
